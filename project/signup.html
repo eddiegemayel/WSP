@@ -1,31 +1,45 @@
-<!DOCTYPE html>
-	<head>
-		<meta charset="utf-8"/>
-		<title>Fight Bank | Sign Up</title>
-		<link rel="stylesheet" href="css/main.css">
-	</head>
-	<body>
-		<div id="wrap">
-			<header>
-				<a href="index.html"><h1>Fight Bank</h1></a>
-				<a href="login.html">Log In</a>
-			</header>
-			<h2>Sign Up For Access To All The Greatest Combat Sports Videos!</h2>
-			<br></br>
-			<label>Username:</label>
-			<input type="text"/>
-			<br></br>
-			<label>Email:</label>
-			<input type="email"/>
-			<br></br>
-			<label>Password:</label>
-			<input type="password"/>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Sign Up</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css"/>
+    <script src="js/modernizr.js"></script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="large-10 columns">
+        <h1><a id="escape" href="index.html">Fight Bank</a></h1>
+      </div>
+      <div class="large-2 columns">
+        <h5><a href="login.html">Log In</a></h5>
+        <h5><a href="favorites.html">My Vault</a></h5>
+      </div>
+      <hr/>
+    </div>
 
-			<a href="index.html"><button>Sign Up</button></a>
-		</div>
-	<script type="text/javascript" src="js/jquery-1.10.1.js"></script>
-	<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.js"></script>
-	<script type="text/javascript" src="js/jsrender.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-	</body>
+    <div class="row">
+      <div class="large-4 large-centered columns">
+        <h2>Sign Up</h2>
+        <hr/>
+        <br></br>
+        <label>Username:</label>
+        <input type="text"/>
+        <label>Email:</label>
+        <input type="email"/>
+        <label>Password:</label>
+        <input type="password"/>
+        <button>Sign Up</button>
+  
+      </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
 </html>
