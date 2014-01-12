@@ -1,32 +1,70 @@
-<!DOCTYPE html>
-	<head>
-		<meta charset="utf-8"/>
-		<title>Fight Bank | Home</title>
-		<link rel="stylesheet" href="css/main.css">
-	</head>
-	<body>
-		<div id="wrap">
-			<header>
-				<a href="#index.html"><h1>Fight Bank</h1></a>
-				<a href="login.html">Log In</a>
-				<a href="favorites.html">My Fight Vault</a>
-			</header>
-			<p>Welcome to the greatest collection of combat sports videos ever, Fight Bank. With us, you can view, review, and save every fight video you see here. Search for the fights you want, leave a review for others to see, then add it to your Fight Vault if you wish. What more could you want? <a href="signup.html">Sign up</a> today. Here's just a fraction of the organizations we have here on the site.</p>
-			<div>
-				<img src="images/ufc_logo_white.jpg" width=400 height=250/>
-				<img src="images/k1.jpg" width=400 height=250/>
-				<img src="images/muaythai.jpg" width=400 height=250/>
-			</div>
-				<br></br>
-			<label>Search Fight Bank:</label>
-			<input type="text"/>
-			<a href="results.html"><button>Search</button></a>
-			<br></br>
-			<p>Filters : Weightclass Sport Title Match?</p>
-		</div>
-	<script type="text/javascript" src="js/jquery-1.10.1.js"></script>
-	<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.js"></script>
-	<script type="text/javascript" src="js/jsrender.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-	</body>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css"/>
+    <script src="js/modernizr.js"></script>
+  </head>
+  <body>
+    
+    <div class="row">
+      <div class="large-10 columns">
+        <h1>Fight Bank</h1>
+      </div>
+      <div class="large-2 columns">
+        <h5>Log In</h5>
+        <h5>My Vault</h5>
+      </div>
+      <hr/>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <p>Welcome to the greatest collection of combat sports videos ever, Fight Bank. With us, you can view, review, and save every fight video you see here. Search for the fights you want, leave a review for others to see, then add it to your Fight Vault if you wish. What more could you want? <a href="signup.html">Sign up</a> today. Here's just a fraction of the organizations we have here on the site.</p>
+      </div>
+      <hr/>
+    </div>
+
+    <div class="row">
+      <div class="large-6 columns">
+        <ul data-orbit>
+          <li>
+            <img src="images/ufc_logo_white.jpg" width=400 height=250/>
+            <div class="orbit-caption">
+              The Ultimate Fighting Championship
+            </div>
+          </li>
+          <li>
+            <img src="images/k1.jpg" width=400 height=250/>
+            <div class="orbit-caption">
+              K-1 Kickboxing
+            </div>
+          </li>
+          <li>
+            <img src="images/muaythai.jpg" width=400 height=250/>
+            <div class="orbit-caption">
+              Muay Thai
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="large-6 columns">
+        <label>Search Fight Bank:</label>
+        <input type="text"/>
+        <a href="results.html"><button>Search</button></a>
+      </div>
+
+    </div>
+    
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
 </html>
