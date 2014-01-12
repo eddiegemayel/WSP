@@ -1,39 +1,63 @@
-<!DOCTYPE html>
-	<head>
-		<meta charset="utf-8"/>
-		<title>Fight Bank | Fight Vault</title>
-		<link rel="stylesheet" href="css/main.css">
-	</head>
-	<body id="fav">
-		<div id="wrap">
-			<header>
-				<a href="index.html"><h1>Fight Bank</h1></a>
-				<a href="login.html">Log In</a>
-			</header>
-			<h2>My Fight Vault</h2>
-<!-- 			<h3>All your favorite fights...in one place!</h3>
- -->			<ol>
-				<li>
-					<div>
-						<h3>Cain Velasquez Highlight 2013</h3>
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/Rpk4JqCFI5k" frameborder="0" allowfullscreen></iframe>
-						<p>Cain Velasquez dominates all his opponents, and this highlight video does him justice. Watch as ...</p>
-						<p>Rating : 5/5</p>
-						<a href="details.html"><button>More info can be found here.</button></a>
-					</div>
-				</li>
-				<li>
-					<h3>Alistair Overeem vs Tyrone Spong</h3>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/X9aqWn6SPgA" frameborder="0" allowfullscreen></iframe>
-					<p>Watch as the monsterous heavyweight Alistair Overeem takes on the smaller yet more agile Tyrone Spong in this exciting K-1 Kickboxing match from 2010.</p>
-					<p>Rating : 3.5/5</p>
-					<button>More info can be found here.</button>
-				</li>
-			</ol>
-		</div>
-	<script type="text/javascript" src="js/jquery-1.10.1.js"></script>
-	<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.js"></script>
-	<script type="text/javascript" src="js/jsrender.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-	</body>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Fight Vault</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css"/>
+    <script src="js/modernizr.js"></script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="large-10 columns">
+        <h1><a id="escape" href="index.html">Fight Bank</a></h1>
+      </div>
+      <div class="large-2 columns">
+        <h5><a href="login.html">Log In</a></h5>
+        <h5><a href="favorites.html">My Vault</a></h5>
+      </div>
+      <hr/>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <h2>My Fight Vault</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <h3>1. Alistair Overeem vs Tyrone Spong</h3>
+          <iframe width="660" height="315" src="https://www.youtube.com/embed/X9aqWn6SPgA" frameborder="0" allowfullscreen></iframe>
+          <p>Watch as the monsterous heavyweight Alistair Overeem takes on the smaller yet more agile Tyrone Spong in this exciting K-1...</p>
+          <p>Rating : 3.5/5</p>
+          <button>More info can be found here.</button>
+      </div>
+    </div>
+
+    <hr/>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <h4>2. Cain Velasquez Highlight 2013</h4>
+        <iframe width="660" height="315" src="https://www.youtube.com/embed/Rpk4JqCFI5k" frameborder="0" allowfullscreen></iframe>
+        <p>Cain Velasquez dominates all his opponents, and this highlight video does him justice. Watch as...</p>
+        <p>Average Rating : 5/5</p>
+        <a href="details.html"><button>More info on this video</button></a>
+      </div>
+    </div>
+
+    <hr/>
+
+    
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
 </html>
