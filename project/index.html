@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    
     <script src="js/modernizr.js"></script>
   </head>
   <body>
@@ -15,7 +16,7 @@
     <!--Header Start -->
     <div class="row">
       <div class="large-10 columns">
-        <h1><a id="escape" href="#index.html">Fight Bank</a></h1>
+        <a id="escape" href="#index.html"><img src="images/logo.png" width=322 height=70 title="Return Home"/></a>
       </div>
       <div class="large-2 columns">
         <h5><a href="login.html">Log In/Sign Up</a></h5>
@@ -26,9 +27,9 @@
     <!--Header End-->
 
     <div class="row">
-      <div class="large-12 columns">
+      <div id="cta" class="large-12 columns">
         <h2>We Know. You Love Fights.</h2>
-        <p>We do too. That's why Fight Bank was created. For all you fight freaks. Get started collecting your favorite bouts <a href="signup.html"><button>Right Now.</button></a></p>
+        <p class="smalltext">We do too. That's why Fight Bank was created. For all you fight freaks. Get started collecting your favorite bouts <a href="signup.html"><button>Right Now.</button></a></p>
       </div>
       <!-- <hr/> -->
     </div>
@@ -40,13 +41,16 @@
         <hr/>
         <label>Search Fight Bank:</label>
         <input type="text"/>
-        <form>
-          <fieldset>
 
+        
+        <div id="accordion">
+          <!-- <h3>Search Filters</h3> -->
+          <div>
+          <form class="filterForm">
+          <fieldset>
             <legend>Filters</legend>
             <fieldset>
               <legend>Sport</legend/>
-             <!-- <label>Sport</label> -->
              <input type="checkbox" checked="checked" name="sport"/> UFC
              <input type="checkbox" name="sport"/> K-1
              <input type="checkbox" name="sport"/> Muay Thai
@@ -57,14 +61,12 @@
 
             <fieldset>
               <legend>Title Match?</legend>
-             <!-- <label>Title Match?</label> -->
              <input type="radio" name="title"/> Yes
              <input type="radio" checked="checked" name="title"/> No  <br>
            </fieldset>
 
            <fieldset>
             <legend>Weightclass</legend>
-             <!-- <label>Weightclass</label> -->
              <input type="radio" checked="checked" name="weightclass"/> Heavyweight
              <input type="radio" name="weightclass"/> Light Heavyweight
              <input type="radio" name="weightclass"/> Middleweight
@@ -75,7 +77,9 @@
            </fieldset>
 
           </fieldset>
-        </form>
+          </form>
+        </div>
+        </div>
         <a href="results.html"><button>Search</button></a>
       </div>
 
@@ -106,10 +110,9 @@
         </ul>
         <!-- End of Orbit Rotator-->
       </div>
-
-      
     </div>
 
+    <!-- Google Analytics -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -118,12 +121,22 @@
 
       ga('create', 'UA-47373703-1', 'eddiegemayel.github.io');
       ga('send', 'pageview');
-
     </script>
+
+    <!--Load JQuery???? doesnt seem to work -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery-ui-1.10.4.custom.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <!-- Foundation Resources -->
     <script src="js/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    
     <script>
       $(document).foundation();
     </script>
+
   </body>
+
 </html>
