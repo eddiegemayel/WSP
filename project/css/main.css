@@ -39,6 +39,8 @@ button{
 #cta{
 	background-image: url(../images/ctabackground.jpg);
 	height:608px;
+	width:100%;
+	margin-bottom: 10px;
 }
 
 .smalltext{
