@@ -7,12 +7,10 @@
 #review{
 	border : 1px solid black;
 	padding: 4px;
-
 }
 
 #escape{
-text-decoration : none;
-
+	text-decoration : none;
 }
 
 body{
@@ -21,10 +19,12 @@ body{
 
 h1, h2, h3, h4, h5{
 	color:#c2520b;
+	font-family: Arial;
 }
 
 p, fieldset, label, span, li{
 	color:#d1c5c5;
+	font-family: Helvetica;
 }
 
 legend{
@@ -44,10 +44,14 @@ button{
 	overflow:auto;
 }
 
+.orbit_img {
+      margin: 0 auto;
+      text-align: center;
+}
+
 .smalltext{
 	padding-top: 480px;
 }
-
 
 .video-container {
     position: relative;

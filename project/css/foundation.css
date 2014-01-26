@@ -31,11 +31,6 @@ body {
   font-size: 100%; }
 
   
-.orbit_img {
-margin: 0 auto;
-}
-
-
 
 body {
   background: white;
@@ -2585,8 +2580,8 @@ a.th {
     top: 10px;
     left: 10px;
     font-size: 12px;
-    color: white;
-    background: rgba(0, 0, 0, 0);
+    color: #c2520b;
+    background: #2d2c2b;
     z-index: 10; }
     .orbit-container .orbit-slide-number span {
       font-weight: 700;
@@ -2625,7 +2620,7 @@ a.th {
       border-right-style: solid;
       border-color: transparent transparent transparent white; }
       .orbit-container .orbit-timer.paused > span.dark {
-        border-color: transparent transparent transparent #333333; }
+        border-color: transparent transparent transparent #b51313; }
   .orbit-container:hover .orbit-timer > span {
     display: block; }
   .orbit-container .orbit-prev,
