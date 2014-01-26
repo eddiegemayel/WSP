@@ -4,4 +4,5 @@ $(function(){
 		collapsible: true
 
 	});
+	$("#sortable").sortable();
 });

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
     <script src="js/modernizr.js"></script>
   </head>
   <body>
@@ -32,23 +33,27 @@
     </div>
 
     <!-- Favorite Vids Row 1-->
+    
     <div class="row">
+    <div id="sortable">
       <div class="large-6 columns">
         <h4>1. Jon Jones 2013 Highlight</h4>
-		<img src="images/thumbnails/bones.jpg" width="321" height="179"/>
+		    <img src="images/thumbnails/bones.jpg" width="321" height="179"/>
       	<p>Jon Jones was one of the youngest champions ever in UFC history. With his unique style and ability to...</p>
         <p>Average Rating : 4/5</p>
         <button>Watch Video</button>
       </div>
+
       <div class="large-6 columns">
         <h4>2. Cain Velasquez Highlight 2013</h4>
         <img src="images/thumbnails/cain.jpg" width="321" height="179"/>
- 		<p>Cain Velasquez dominates all his opponents, and this highlight video does him justice. Watch as...</p>
+ 		    <p>Cain Velasquez dominates all his opponents, and this highlight video does him justice. Watch as...</p>
         <p>Average Rating : 5/5</p>
         <a href="details.html"><button>Watch Video</button></a>
       </div>
-
     </div>
+    </div>
+  
 
     <hr/>
 
@@ -62,10 +67,17 @@
       ga('send', 'pageview');
 
     </script>
+<!-- 
     <script src="js/jquery.js"></script>
+     --><script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery-ui-1.10.4.custom.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
     </script>
+    <!--Load JQuery???? doesnt seem to work -->
+    
+
+    <script src="js/main.js"></script>
   </body>
 </html>
