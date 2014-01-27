@@ -21,8 +21,13 @@ body{
 	background-color: #2d2c2b;
 }
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4{
 	color:#c2520b;
+	font-family: Arial;
+}
+
+h5{
+	color:#d1c5c5;
 	font-family: Arial;
 }
 
