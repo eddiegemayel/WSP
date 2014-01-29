@@ -9,8 +9,12 @@
 	padding: 4px;
 }
 
-#escape{
+.escape{
 	text-decoration : none;
+	background-image: url(../images/logo.png);
+	width: 322px;
+	height:70px;
+	text-indent: -99999px;
 }
 
 #specialSubmit:hover{
@@ -51,6 +55,10 @@ button{
 	width:100%;
 	margin-bottom: 10px;
 	overflow:auto;
+}
+
+.signupForm{
+	margin-top: 10px;
 }
 
 .orbit_img {
