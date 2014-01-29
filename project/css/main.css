@@ -48,6 +48,12 @@ button{
 	background-color: #b51313;
 	color: #d1c5c5;
 }
+
+textarea{
+	height:90px;
+}
+
+
 #header{
 	margin-top: 10px;
 }
