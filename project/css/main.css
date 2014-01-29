@@ -58,6 +58,14 @@ textarea{
 	margin-top: 10px;
 }
 
+.search{
+	padding-bottom: 5px;
+}
+
+.filterimg{
+	padding-bottom: 5px;
+}
+
 #cta{
 	background-image: url(../images/ctabackground.jpg);
 	height:auto;
