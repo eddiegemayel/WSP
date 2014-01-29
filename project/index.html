@@ -14,11 +14,17 @@
   <body>
     
     <!--Header Start -->
-    <div class="row">
-      <div class="large-10 columns">
+    <div id="header" class="row">
+      <div class="large-6 columns">
         <a href="#">
         <h1 class="escape">Fight Bank</h1>
          </a>
+      </div>
+      <div class="large-4 columns">
+        <label>Search Fight Bank:</label>
+        <input type="text"/>
+        <a data-scroll data-speed="900" data-easing="easeInOutCubic" data-url="false" href="#filter"><img src="images/filter.png" width=50 height=25 /></a>
+        <a href="results.html"><img class="search" src="images/search.png" width=25 height=25/> </a>
       </div>
       <div class="large-2 columns">
         <h5><a href="login.html">Log In/Sign Up</a></h5>
@@ -38,16 +44,12 @@
 
     <!-- Search Bar / Filters -->
     <div class="row">
-      <div class="large-6 columns">
-        <h3>Fight Finder</h3>
-        <hr/>
-        <label>Search Fight Bank:</label>
-        <input type="text"/>
 
-        
-        <div id="accordion">
-          <!-- <h3>Search Filters</h3> -->
-          <div>
+      <div class="large-6 columns">
+        <h3 id="filter">Fight Finder</h3>
+        <hr/>
+          <label>Search Fight Bank:</label>
+-         <input type="text"/>
           <form class="filterForm">
           <fieldset>
             <legend>Filters</legend>
@@ -80,9 +82,7 @@
 
           </fieldset>
           </form>
-        </div>
-        </div>
-        <a href="results.html"><button>Search</button></a>
+          <a href="results.html"><button>Search</button></a>
       </div>
 
       <!-- Orbit Rotator -->

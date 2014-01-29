@@ -48,6 +48,9 @@ button{
 	background-color: #b51313;
 	color: #d1c5c5;
 }
+#header{
+	margin-top: 10px;
+}
 
 #cta{
 	background-image: url(../images/ctabackground.jpg);
