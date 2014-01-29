@@ -58,6 +58,20 @@ textarea{
 	margin-top: 10px;
 }
 
+.list{
+	padding-top: 60px;
+}
+
+.vaultList{
+	color: #f9f5f5;
+}
+
+#benefitList{
+	background-image: url(../images/vault.png);
+	width: 960px;
+	height: 550px;
+}
+
 .search{
 	padding-bottom: 5px;
 }
