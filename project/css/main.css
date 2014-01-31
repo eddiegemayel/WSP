@@ -5,7 +5,7 @@
 	#d1c5c5 - white
 	#c2520b - orange
 */
-#review{
+.review{
 	border : 1px solid black;
 	padding: 4px;
 }
