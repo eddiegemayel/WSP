@@ -22,6 +22,12 @@ body{
 	background-color: #2d2c2b;
 }
 
+footer{
+	border: 1px solid;
+	border-color: #d1c5c5;
+	text-align: center;
+}
+
 h1, h2, h3, h4{
 	color:#c2520b;
 	font-family: Arial;
